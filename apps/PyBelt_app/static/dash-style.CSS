@@ -10,20 +10,36 @@ body {
     font-style: italic;
 }
 
-.Yours {
+#Yours {
     border: 1px solid black;
-    display: c;
+     
+    position: relative;
+    top: 300px;
+    right: 5;
+    width: 300px;
+    height: 200px;
+    
+    
     text-align: left;
     background: gold;
     border-radius: 15px;
     padding: 5px;
+    
 }
 
-.other {
+#other {
     border: 1px solid black;
-    display: right;
+    
+    position: relative;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
     text-align: left;
+
     background: gold;
     border-radius: 15px; 
     padding: 5px;
+    height: 200px;
+    width : 500px;
 }
