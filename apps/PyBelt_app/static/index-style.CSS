@@ -1,41 +1,33 @@
-/* * {
-    padding: 0px;
-    margin: 0px;
-    font-family: verdana;
-    outline: 1px solid black;
-} */
-
 body {
     background-color: rgba(255, 238, 0, 0.472);
      background-image: url("https://img.clipartxtras.com/c2c015d679647a74c468c30135a81745_wish-clipart-free-download-clip-art-free-clip-art-on-clipart-wish-clipart_600-388.png");
       
      background-position:  center;
-      height: 500px;
-      width: 100px; 
+     background-size: 400px, 400px; 
     background-repeat: no-repeat;
-    width: 1200px;
+    width: 1100px;
+    height:400px;
     margin: 5px auto; 
+    font-style: italic;
 }
 
-/* .location {
+.log{
+border: 1px solid black;
+display: right;
+text-align: center;
+background:gold;
+border-radius: 100px;
+padding:5px;
+}
+
+.reg {
     border: 1px solid black;
     display: inline-block;
-    text-align: center;
-    background: gold;
-    border-radius: 15px;
-    padding: 5px;
-} */
+    text-align: left;
+    background:gold;
+    /* border-radius: 15px; */
+    padding:5px;
+    }
+ h1{
 
-/* #activities {
-    border: 1px solid black;
-    height: 200px;
-    width: 500px;
-    overflow: scroll;
-    background: turquoise;
-    border-radius: 8px;
-} */
-
-/* .button {
-    border-radius: 10px;
-    color: red;
-} */
+ }

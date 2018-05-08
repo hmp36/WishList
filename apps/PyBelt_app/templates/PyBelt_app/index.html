@@ -9,7 +9,7 @@
 </head>
 
 <body>
-<div class =log/reg></div>	
+<div class ='reg'>
 <h1 style="color: Green">Registration</h1>
 	{% if messages %}
     {% for message in messages %}
@@ -28,6 +28,8 @@
 		<p>Date of Birth: <input type="date" name="date of Birth"></p>
 		<p><input type="submit" name="Submit"></p>	
 	</form>
+</div>
+<div class='log'>
 		<h1 style="color: Blue">Login</h1>
 	<form action="/login" method='post'>
 	{% csrf_token %}

@@ -10,7 +10,8 @@
 </head>
 
 <body>
-    <h2>Hello, {{ user.name }}</h2>
+    <h1>Hello, {{ user.name }}</h1>
+    <div class='Yours'>
     <table>
         <h3>Your Wish List</h3>
         <tr>
@@ -39,7 +40,9 @@
         </tr>
         {% endfor %}
     </table>
-    <hr>
+    </div>
+
+    <div class='other'>
     <table>
         <H3>Other user's wish list:</H3>
         <tr>
@@ -61,7 +64,7 @@
         </tr>
         {% endfor %}
     </table>
-
+    </div>
 
     <a href="/addItem">Add a new Item!</a>
 
