@@ -1,17 +1,20 @@
-* {
+/* * {
     padding: 0px;
     margin: 0px;
     font-family: verdana;
     outline: 1px solid black;
-}
+} */
 
 body {
-    background: rgb(43, 226, 104);
-    background-image: url("http://jp.rohto.com/~/Media/com/cp/ninja/en/dco_eye_ninja.png");
-    background-position: right;
+    background-color: rgba(255, 238, 0, 0.472);
+     background-image: url("https://img.clipartxtras.com/c2c015d679647a74c468c30135a81745_wish-clipart-free-download-clip-art-free-clip-art-on-clipart-wish-clipart_600-388.png");
+      
+     background-position: center;
+      height: 500px;
+      width: 800px; 
     background-repeat: no-repeat;
-    width: 600px;
-    margin: 5px auto;
+    width: 1200px;
+    margin: 5px auto; 
 }
 
 /* .location {
@@ -32,7 +35,7 @@ body {
     border-radius: 8px;
 } */
 
-.button {
+/* .button {
     border-radius: 10px;
     color: red;
-}
+} */
