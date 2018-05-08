@@ -1,0 +1,10 @@
+body {
+    background-color: rgba(255, 238, 0, 0.472);
+    background-image: url("https://img.clipartxtras.com/c2c015d679647a74c468c30135a81745_wish-clipart-free-download-clip-art-free-clip-art-on-clipart-wish-clipart_600-388.png");
+    background-position: center;
+    height: 500px;
+    width: 800px;
+    background-repeat: no-repeat;
+    width: 1200px;
+    margin: 5px auto;
+}
