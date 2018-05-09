@@ -3,21 +3,23 @@ body {
      background-image: url("https://img.clipartxtras.com/c2c015d679647a74c468c30135a81745_wish-clipart-free-download-clip-art-free-clip-art-on-clipart-wish-clipart_600-388.png");
       
      background-position:  center;
-     background-size: 400px, 400px; 
+     background-size: 400px, 500px; 
     background-repeat: no-repeat;
     width: 1100px;
     height:400px;
-    margin: 5px auto; 
+    /* margin: 5px auto;  */
     font-style: italic;
 }
 
 .log{
-border: 1px solid black;
-display: right;
+border: 3px solid black;
+display: center;
+left: 200;
 text-align: center;
 background:gold;
 border-radius: 100px;
-padding:5px;
+padding:0px;
+width:500px;
 }
 
 .reg {

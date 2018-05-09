@@ -1,7 +1,7 @@
 body {
     background-color: rgba(255, 238, 0, 0.472);
-    background-image: url("");
-    background-position: center;
+    background-image: url("http://kidsontrack.org/donate/wish-list/");
+    background-position: left;
     background-size: 400px, 400px;
     background-repeat: no-repeat;
     width: 1100px;
@@ -12,13 +12,12 @@ body {
 
 #Yours {
     border: 1px solid black;
-     
-    position: relative;
+    position: absolute; 
     top: 300px;
-    right: 5;
-    width: 300px;
+    left: 400px;
+    width: 500px;
     height: 200px;
-    
+    overflow: auto;
     
     text-align: left;
     background: gold;
@@ -30,13 +29,13 @@ body {
 #other {
     border: 1px solid black;
     
-    position: relative;
-    top: 80px;
+    position: absolute;
+    top: 30px;
     right: 0;
     width: 200px;
     height: 100px;
     text-align: left;
-
+    overflow: auto;
     background: gold;
     border-radius: 15px; 
     padding: 5px;
